@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1718140021 source:c:\users\joaquin\desktop\grupo7tpi\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<ctime>
+	"rlutil.h"
+	"FUNCIONES.h"
+	"unjugador.h"
+
+1718139059 c:\users\joaquin\desktop\grupo7tpi\funciones.h
+
+1718059450 source:c:\users\joaquin\desktop\grupo7tpi\unjugador.cpp
+	<iostream>
+
+1718140009 c:\users\joaquin\desktop\grupo7tpi\unjugador.h
+
+1718139717 c:\users\joaquin\desktop\grupo7tpi\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718315118 source:c:\users\joaquin\documents\grupo7tpi\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<ctime>
+	"rlutil.h"
+	"FUNCIONES.h"
+
+1718139717 c:\users\joaquin\documents\grupo7tpi\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718316606 c:\users\joaquin\documents\grupo7tpi\funciones.h
+
+1718300798 c:\users\joaquin\documents\grupo7tpi\unjugador.h
+
