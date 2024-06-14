@@ -48,10 +48,10 @@ int main() {
 		rlutil::setColor(rlutil::WHITE);
 		rlutil::hidecursor();
 
-		showItem(" MODO UN JUGADOR ", 30, 10, y == Opcion1);
-		showItem(" MODO DOS JUGADORES ", 30, 11, y == Opcion2);
-		showItem(" MODO SIMULADO ", 30, 12, y == Opcion3);
-		showItem("    SALIR   ", 30, 13, y == Salir);
+		showItem(" UN JUGADOR ", 30, 10, y == Opcion1);
+		showItem(" DOS JUGADORES ", 30, 11, y == Opcion2);
+		showItem(" SIMULADO ", 30, 12, y == Opcion3);
+		showItem(" SALIR   ", 30, 13, y == Salir);
 
 		switch (rlutil::getkey())
 		{
