@@ -32,8 +32,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="dados.cpp" />
+		<Unit filename="dados.h" />
+		<Unit filename="funciones.cpp" />
 		<Unit filename="funciones.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="menus.cpp" />
+		<Unit filename="menus.h" />
+		<Unit filename="rlutil.h" />
+		<Unit filename="unjugador.cpp" />
+		<Unit filename="unjugador.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

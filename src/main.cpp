@@ -3,11 +3,14 @@
 #include<cstdio>
 #include<cstring>
 #include<ctime>
+
+#include "dados.h"
+#include "FUNCIONES.h"
+#include "menus.h"
+#include "unjugador.h"
 #include "rlutil.h"
 
 using namespace std;
-
-#include "FUNCIONES.h"
 
 void showItem(const char* text, int posx, int posy, bool selected) {
 
@@ -48,7 +51,7 @@ int main() {
 		showItem(" MODO UN JUGADOR ", 30, 10, y == Opcion1);
 		showItem(" MODO DOS JUGADORES ", 30, 11, y == Opcion2);
 		showItem(" MODO SIMULADO ", 30, 12, y == Opcion3);
-		showItem(" SALIR   ", 30, 13, y == Salir);
+		showItem("    SALIR   ", 30, 13, y == Salir);
 
 		switch (rlutil::getkey())
 		{
@@ -68,8 +71,10 @@ int main() {
 				y = 3;
 			}
 			break;
-		case 1: modoUnJugador();
-            break;
+		case 1:
+		    modoUnJugador();
+		    break;
+
 			switch (y)
 			{
 			case 3:
@@ -84,7 +89,7 @@ int main() {
 			break;
 		}
 
-		//¿std::cout << "Key: " << key;
+		//std::cout << "Key: " << key;
 
 		//rlutil::anykey();
 		//op = 1;

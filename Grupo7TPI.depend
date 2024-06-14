@@ -29,14 +29,17 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1718315118 source:c:\users\joaquin\documents\grupo7tpi\main.cpp
+1718328067 source:c:\users\joaquin\documents\grupo7tpi\main.cpp
 	<iostream>
 	<cstdlib>
 	<cstdio>
 	<cstring>
 	<ctime>
-	"rlutil.h"
+	"dados.h"
 	"FUNCIONES.h"
+	"menus.h"
+	"unjugador.h"
+	"rlutil.h"
 
 1718139717 c:\users\joaquin\documents\grupo7tpi\rlutil.h
 	<iostream>
@@ -52,7 +55,59 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1718316606 c:\users\joaquin\documents\grupo7tpi\funciones.h
+1718328560 c:\users\joaquin\documents\grupo7tpi\funciones.h
 
-1718300798 c:\users\joaquin\documents\grupo7tpi\unjugador.h
+1718328032 c:\users\joaquin\documents\grupo7tpi\unjugador.h
+
+1718328572 c:\users\joaquin\documents\grupo7tpi\menus.h
+
+1718328572 source:c:\users\joaquin\documents\grupo7tpi\funciones.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<ctime>
+	"dados.h"
+	"FUNCIONES.h"
+	"menus.h"
+	"unjugador.h"
+	"rlutil.h"
+
+1718328572 source:c:\users\joaquin\documents\grupo7tpi\menus.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<ctime>
+	"dados.h"
+	"funciones.h"
+	"menus.h"
+	"unjugador.h"
+	"rlutil.h"
+
+1718328572 source:c:\users\joaquin\documents\grupo7tpi\unjugador.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<ctime>
+	"dados.h"
+	"FUNCIONES.h"
+	"menus.h"
+	"unjugador.h"
+	"rlutil.h"
+
+1718328131 source:c:\users\joaquin\documents\grupo7tpi\dados.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<ctime>
+	"dados.h"
+	"FUNCIONES.h"
+	"menus.h"
+	"unjugador.h"
+	"rlutil.h"
+
+1718328131 c:\users\joaquin\documents\grupo7tpi\dados.h
 
